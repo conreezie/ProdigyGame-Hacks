@@ -1,0 +1,53 @@
+Made by Skipps#9687 Execute each script one at a time.
+
+~ Skipp's Prodigy Game Scripts ~
+
+~ All Currency ~
+PIXI.game.prodigy.player.backpack.data.currency=[]
+x = PIXI.game.state.states.Boot._gameData.currency
+for (i in x) {
+    PIXI.game.prodigy.player.backpack.data.currency[i] = {"ID": x[i].ID, "N": Infinity}
+}
+
+~ All Special Relics ~
+PIXI.game.prodigy.player.backpack.data.SpellRelic=[]
+x = PIXI.game.state.states.Boot._gameData.SpellRelic
+for (i in x) {
+    PIXI.game.prodigy.player.backpack.data.SpellRelic[i] = {"ID": x[i].ID, "N": Infinity}
+}
+
+~ All Items ~
+PIXI.game.prodigy.player.backpack.data.item=[]
+x = PIXI.game.state.states.Boot._gameData.item
+for (i in x) {
+    PIXI.game.prodigy.player.backpack.data.item[i] = {"ID": x[i].ID, "N": Infinity}
+}
+
+~ All Outfits ~
+PIXI.game.prodigy.player.backpack.data.outfit=[]
+x = PIXI.game.state.states.Boot._gameData.outfit
+for (i in x) {
+    PIXI.game.prodigy.player.backpack.data.outfit[i] = {"ID": x[i].ID, "N": Infinity}
+}
+
+~ All Boots ~
+PIXI.game.prodigy.player.backpack.data.boots=[]
+x = PIXI.game.state.states.Boot._gameData.boots
+for (i in x) {
+    PIXI.game.prodigy.player.backpack.data.boots[i] = {"ID": x[i].ID, "N": Infinity}
+}
+
+~ All Weapons ~
+PIXI.game.prodigy.player.backpack.data.weapon=[]
+x = PIXI.game.state.states.Boot._gameData.weapon
+for (i in x) {
+    PIXI.game.prodigy.player.backpack.data.weapon[i] = {"ID": x[i].ID, "N": Infinity}
+}
+
+~ All Hats ~
+PIXI.game.prodigy.player.backpack.data.hat=[]
+x = PIXI.game.state.states.Boot._gameData.hat
+for (i in x) {
+    PIXI.game.prodigy.player.backpack.data.hat[i] = {"ID": x[i].ID, "N": Infinity}
+}
+
